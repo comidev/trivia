@@ -31,7 +31,7 @@ export const ENDPOINT = (category) =>
         category === 8 ? "" : `&category=${category}`
     }&difficulty=medium&type=multiple&encode=url3986`; // &encode=url3986
 
-export const ENDPOINT_API = "http://localhost:8080/api/v0";
+export const ENDPOINT_API = "https://api-triv.herokuapp.com/api/v0";
 
 export const ANSWERED_LIST = [
     { answered: "", correct: false },
